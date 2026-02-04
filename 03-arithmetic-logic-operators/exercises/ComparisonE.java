@@ -68,5 +68,40 @@ public class ComparisonE
         // 5. Compare two Strings using .equals() instead of ==.
 
         // 6. Create three int variables and determine the largest.
+        int a = 50;
+        int b = 25;
+        System.out.println(a > b);
+        System.out.println(a < b);
+        System.out.println(a == b);
+        System.out.println(a != b);
+
+        double p = 5.5;
+        double q = 7.2;
+        System.out.println(p > q);
+        System.out.println(p < q);
+        System.out.println(p == q);
+        System.out.println(p != q);
+
+        char c1 = 'A';
+        char c2 = 'B';
+        System.out.println("A - B " + (c1 < c2));
+
+        boolean result = (x < y) && (x != y);
+        System.out.println(result);
+
+        String str1 = "Hello";
+        String str2 = "Hello";
+        System.out.println(str1.equals(str2));
+
+        int num1 = 10;
+        int num2 = 20;
+        int num3 = 15;
+        if (num1 > num2 && num1 > num3) {
+            System.out.println(num1);
+        } else if (num2 > num1 && num2 > num3) {
+            System.out.println(num2);
+        } else {
+            System.out.println(num3);
+        }
     }
 }

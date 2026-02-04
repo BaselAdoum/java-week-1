@@ -22,8 +22,8 @@ public class TernaryE
 {
     public static void main(String[] args)
     {
-        int a = 10;
-        int b = 20;
+        int a = 15;
+        int b = 25;
 
         // Using the ternary operator to find the maximum of two numbers
         int max = (a > b) ? a : b;
@@ -32,7 +32,10 @@ public class TernaryE
 
         // -------------------- Student Exercises --------------------
         // 1. Create int x = 15, y = 25; use ternary to find minimum.
-
+        int x = 15;
+        int y = 25;
+        int min = (x > y) ? x : y;
+        System.out.println("The maximum value is: " + min);
         // 2. Create int age = 18; use ternary to print "Adult" or "Minor".
 
         // 3. Create int a = 10, b = 20, c = 15; use nested ternary to find largest.

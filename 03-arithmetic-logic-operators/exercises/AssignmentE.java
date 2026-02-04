@@ -60,5 +60,61 @@ public class AssignmentE
         // 5. Create x = 7, double it with +=, then square it with *=.
 
         // 6. Start y = 50, apply -= 10, *= 2, /= 5, %= 6 step by step.
+
+
+                System.out.println("Initial value of a: " + a);
+                a += 5;
+                System.out.println("After a += 5: " + a);
+                a -= 3;
+                System.out.println("After a -= 3: " + a);
+                a *= 2;
+                System.out.println("After a *= 2: " + a);
+                a /= 4;
+                System.out.println("After a /= 4: " + a);
+                a %= 3;
+                System.out.println("After a %= 3: " + a);
+
+                int b = 20;
+                System.out.println(b);
+                b += 8;
+                System.out.println(b);
+                b -= 5;
+                System.out.println(b);
+
+                int c = 15;
+                System.out.println(c);
+                c *= 3;
+                System.out.println(c);
+                c /= 5;
+                System.out.println(c);
+                c %= 4;
+                System.out.println("This is modulu " + c);
+
+                double d = 12.5;
+                System.out.println(d);
+                d += 2.5;
+                System.out.println(d);
+                d *= 2.0;
+                System.out.println(d);
+
+                int x = 7;
+                System.out.println(x);
+                x += x;
+                System.out.println(x);
+                x *= x;
+                System.out.println(x);
+
+                int y = 50;
+                System.out.println(y);
+                y -= 10;
+                System.out.println(y);
+                y *= 2;
+                System.out.println(y);
+                y /= 5;
+                System.out.println(y);
+                y %= 6;
+                System.out.println(y);
+
+
     }
 }

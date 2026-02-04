@@ -56,5 +56,25 @@ public class LogicalE
 
         // 4. Combine multiple logical operators with parentheses
         //    to test order of evaluation.
+        boolean x = true;
+        boolean y = false;
+        System.out.println(x && y);
+        System.out.println(x || y);
+        System.out.println(!x);
+        System.out.println(!y);
+
+        boolean a2 = true;
+        boolean b2 = false;
+        boolean c = true;
+        System.out.println((a2 && b2) || c);
+        System.out.println(!(a2 || b2) && c);
+
+        int n = 15;
+        System.out.println(n > 10 && n < 20);
+        System.out.println(n != 12 || n < 5);
+
+        System.out.println((true && false) || (true && !false));
+        System.out.println(!(false || true) && (false || true));
+        System.out.println(true && (false || true) && !false);
     }
 }

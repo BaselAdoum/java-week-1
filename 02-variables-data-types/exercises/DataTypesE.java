@@ -16,7 +16,6 @@
  * 10. Use String concatenation to print a sentence like: "My name is John and I am 20 years old."
  * -----------------------------------------------------------------
  */
-
 public class DataTypesE
 {
     public static void main(String[] args)
@@ -47,25 +46,59 @@ public class DataTypesE
         }
         System.out.println();
 
-        // -------------------- Student Exercises --------------------
+
         // 1. Create an int variable called age and assign it your age
+        int age = 36;
+        System.out.println("1. Age: " + age);
 
         // 2. Create a double variable called temperature and assign it any decimal
+        double temperature = 38.7;
+        System.out.println("2. Temperature: " + temperature + "°C");
 
         // 3. Create a char variable called gradeLetter and assign it a letter
+        char gradeLetter = 'A';
+        System.out.println("3. Grade Letter: " + gradeLetter);
 
         // 4. Create a boolean variable called isJavaFun and assign true or false
+        boolean isJavaFun = true;
+        System.out.println("4. Is Java Fun? " + isJavaFun);
 
         // 5. Create a String variable called favoriteColor and assign it a color
+        String favoriteColor = "Green";
+        System.out.println("5. Favorite Color: " + favoriteColor);
 
         // 6. Create an int array called numbers with at least 5 values, then print them
+        int[] numbers = {1, 3, 5, 7, 9};
+        System.out.print("6. Numbers array: ");
+        for (int num : numbers) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
 
-        // 7. Change one value inside numbers and print the updated array
+        // 7. Change one of the values inside the array and print the updated array
+        numbers[2] = 10;
+        System.out.print("7. Updated numbers array: ");
+        for (int num : numbers) {
+            System.out.print(num + " ");
+        }
+        System.out.println();
 
-        // 8. Create a String array with 3 favorite foods and print them in a loop
+        // 8. Create a String array with 3 of your favorite foods and print them in a loop
+        String[] favoriteFoods = {"Pizza", "Biryani", "Pizza"};
+        System.out.print("8. Favorite foods: ");
+        for (String food : favoriteFoods) {
+            System.out.print(food + " ");
+        }
+        System.out.println();
 
         // 9. Create two double variables, add them together, and print the result
+        double num1 = 15.3;
+        double num2 = 7.8;
+        double sum = num1 + num2;
+        System.out.println("9. " + num1 + " + " + num2 + " = " + sum);
 
-        // 10. Use String concatenation to print: "My name is ___ and I am ___ years old."
+        // 10. Use String concatenation to print a sentence
+        String name = "Basel";
+        System.out.println("10. My name is " + name + " and I am " + age + " years old.");
     }
 }

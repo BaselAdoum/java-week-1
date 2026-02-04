@@ -32,11 +32,11 @@ public class InputOutputE
         // 1. Reading a full line safely
         String line;
         System.out.print("Enter a line of text: ");
-        while (!scanner.hasNextLine())
-        {
+            while (!scanner.hasNextLine())
+            {
             System.out.println("Invalid input. Please enter a line of text:");
             scanner.next(); // discard invalid token
-        }
+            }
         line = scanner.nextLine();
         System.out.println("You entered: " + line);
 
